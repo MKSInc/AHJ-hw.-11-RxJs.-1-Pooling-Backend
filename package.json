@@ -1,0 +1,35 @@
+{
+  "name": "ahj-hw.-11-rxjs.-1-pooling-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "stop": "forever stop server.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKSInc/AHJ-hw.-11-RxJs.-1-Pooling-Backend.git"
+  },
+  "author": "MKSInc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MKSInc/AHJ-hw.-11-RxJs.-1-Pooling-Backend/issues"
+  },
+  "homepage": "https://github.com/MKSInc/AHJ-hw.-11-RxJs.-1-Pooling-Backend#readme",
+  "dependencies": {
+    "forever": "^4.0.1",
+    "koa": "^2.13.1",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.1"
+  }
+}
