@@ -4,7 +4,7 @@ const koaStatic = require('koa-static');
 const Router = require('koa-router');
 const MsgGenerator = require('./js/MsgGenerator');
 
-const app = new Koa();
+const app = new Koa();//
 
 app.use(async (ctx, next) => {
   // Так как frontend на ходится на сервере, то CORS не нужен.
